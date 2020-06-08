@@ -1,0 +1,1 @@
+> *Directory to save the csv files containing the chroma feature vectors extracted from the audio chord data set present in the [ChordAudioDataset](../ChordAudioDataset) directory.*

@@ -1,0 +1,44 @@
+chord_audio_data_set:
+  a: "data/ChordAudioDataset/a/"
+  am: "data/ChordAudioDataset/am/"
+  bm: "data/ChordAudioDataset/bm/"
+  c: "data/ChordAudioDataset/c/"
+  d: "data/ChordAudioDataset/d/"
+  dm: "data/ChordAudioDataset/dm/"
+  e: "data/ChordAudioDataset/e/"
+  em: "data/ChordAudioDataset/em/"
+  f: "data/ChordAudioDataset/f/"
+  g: "data/ChordAudioDataset/g/"
+  file_extn: ".wav"
+
+chromagram_data_set:
+  header: "Bin 1,Bin 2,Bin 3,Bin 4,Bin 5,Bin 6,Bin 7,Bin 8,Bin 9,Bin 10, Bin 11, Bin 12, Chord"
+  file_path: "data/ChromagramDataset"
+  stft: "stft_data_set"
+  cqt: "cqt_data_set"
+  cens: "cens_data_set"
+  file_extn: ".csv"
+
+record_audio:
+  chunk_size: 1024
+  channels: 2
+  sample_rate: 44100
+  record_seconds: 5
+  file_path: "data/recording"
+  file_name: "test_audio_"
+  file_extn: ".wav"
+
+chords:
+- "a"
+- "am"
+- "bm"
+- "c"
+- "d"
+- "dm"
+- "e"
+- "em"
+- "f"
+- "g"
+
+model_save_path: "trained_models"
+
